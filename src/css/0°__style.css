@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url(1°__login.css);
+@import url(2°__tela-jogo.css);
+@import url(3°__montanhas-component.css);
+@import url(4°__nuvens-component.css);
+@import url(5°__elemetos-terrestres-components.css);
+@import url(6°__caixa-pontuacao-component.css);
+@import url(7°__game-over-component.css);
+
+:root {
+    --preto: #000000;
+    --fonte-principal: 'Silkscreen';
+}
+
+*{
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    background-color: var(--preto);
+}
